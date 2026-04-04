@@ -11,6 +11,9 @@ importers:
       '@prisma/client':
         specifier: ^7.6.0
         version: 7.6.0
+      dotenv:
+        specifier: ^17.4.0
+        version: 17.4.0
 
 packages:
 
@@ -29,6 +32,10 @@ packages:
       typescript:
         optional: true
 
+  dotenv@17.4.0:
+    resolution: {integrity: sha512-kCKF62fwtzwYm0IGBNjRUjtJgMfGapII+FslMHIjMR5KTnwEmBmWLDRSnc3XSNP8bNy34tekgQyDT0hr7pERRQ==}
+    engines: {node: '>=12'}
+
 snapshots:
 
   '@prisma/client-runtime-utils@7.6.0': {}
@@ -36,3 +43,5 @@ snapshots:
   '@prisma/client@7.6.0':
     dependencies:
       '@prisma/client-runtime-utils': 7.6.0
+
+  dotenv@17.4.0: {}
